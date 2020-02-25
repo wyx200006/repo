@@ -1,8 +1,9 @@
 package com.bw.jcartstoreback.controller;
 
-import io.cjf.jcartstoreback.dto.in.AddressCreateInDTO;
-import io.cjf.jcartstoreback.dto.in.AddressUpdateInDTO;
-import io.cjf.jcartstoreback.dto.out.AddressListOutDTO;
+
+import com.bw.jcartstoreback.dto.in.AddressCreateInDTO;
+import com.bw.jcartstoreback.dto.in.AddressUpdateInDTO;
+import com.bw.jcartstoreback.dto.out.AddressListOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

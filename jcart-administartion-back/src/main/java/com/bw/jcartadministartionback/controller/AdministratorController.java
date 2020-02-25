@@ -1,10 +1,11 @@
 package com.bw.jcartadministartionback.controller;
 
-import io.cjf.jcartadministrationback.dto.in.*;
-import io.cjf.jcartadministrationback.dto.out.AdministratorGetProfileOutDTO;
-import io.cjf.jcartadministrationback.dto.out.AdministratorListOutDTO;
-import io.cjf.jcartadministrationback.dto.out.AdministratorShowOutDTO;
-import io.cjf.jcartadministrationback.dto.out.PageOutDTO;
+
+import com.bw.jcartadministartionback.dto.in.*;
+import com.bw.jcartadministartionback.dto.out.AdministratorGetProfileOutDTO;
+import com.bw.jcartadministartionback.dto.out.AdministratorListOutDTO;
+import com.bw.jcartadministartionback.dto.out.AdministratorShowOutDTO;
+import com.bw.jcartadministartionback.dto.out.PageOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

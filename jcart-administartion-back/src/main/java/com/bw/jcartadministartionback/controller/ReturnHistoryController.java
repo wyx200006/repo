@@ -1,7 +1,8 @@
 package com.bw.jcartadministartionback.controller;
 
-import io.cjf.jcartadministrationback.dto.in.ReturnHistoryCreateInDTO;
-import io.cjf.jcartadministrationback.dto.out.ReturnHistoryListOutDTO;
+
+import com.bw.jcartadministartionback.dto.in.ReturnHistoryCreateInDTO;
+import com.bw.jcartadministartionback.dto.out.ReturnHistoryListOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,9 +1,10 @@
 package com.bw.jcartstoreback.controller;
 
-import io.cjf.jcartstoreback.dto.in.ProductSearchInDTO;
-import io.cjf.jcartstoreback.dto.out.PageOutDTO;
-import io.cjf.jcartstoreback.dto.out.ProductListOutDTO;
-import io.cjf.jcartstoreback.dto.out.ProductShowOutDTO;
+
+import com.bw.jcartstoreback.dto.in.ProductSearchInDTO;
+import com.bw.jcartstoreback.dto.out.PageOutDTO;
+import com.bw.jcartstoreback.dto.out.ProductListOutDTO;
+import com.bw.jcartstoreback.dto.out.ProductShowOutDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

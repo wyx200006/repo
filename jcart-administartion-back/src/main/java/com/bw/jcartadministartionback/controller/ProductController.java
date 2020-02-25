@@ -1,11 +1,12 @@
 package com.bw.jcartadministartionback.controller;
 
-import io.cjf.jcartadministrationback.dto.in.ProductCreateInDTO;
-import io.cjf.jcartadministrationback.dto.in.ProductSearchInDTO;
-import io.cjf.jcartadministrationback.dto.in.ProductUpdateInDTO;
-import io.cjf.jcartadministrationback.dto.out.PageOutDTO;
-import io.cjf.jcartadministrationback.dto.out.ProductListOutDTO;
-import io.cjf.jcartadministrationback.dto.out.ProductShowOutDTO;
+
+import com.bw.jcartadministartionback.dto.in.ProductCreateInDTO;
+import com.bw.jcartadministartionback.dto.in.ProductSearchInDTO;
+import com.bw.jcartadministartionback.dto.in.ProductUpdateInDTO;
+import com.bw.jcartadministartionback.dto.out.PageOutDTO;
+import com.bw.jcartadministartionback.dto.out.ProductListOutDTO;
+import com.bw.jcartadministartionback.dto.out.ProductShowOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

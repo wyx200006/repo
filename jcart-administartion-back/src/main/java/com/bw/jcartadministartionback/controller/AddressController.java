@@ -1,6 +1,7 @@
 package com.bw.jcartadministartionback.controller;
 
-import io.cjf.jcartadministrationback.dto.out.AddressListOutDTO;
+
+import com.bw.jcartadministartionback.dto.out.AddressListOutDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

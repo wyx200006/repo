@@ -1,9 +1,10 @@
 package com.bw.jcartadministartionback.controller;
 
-import io.cjf.jcartadministrationback.dto.in.CustomerSearchInDTO;
-import io.cjf.jcartadministrationback.dto.out.CustomerListOutDTO;
-import io.cjf.jcartadministrationback.dto.out.CustomerShowOutDTO;
-import io.cjf.jcartadministrationback.dto.out.PageOutDTO;
+
+import com.bw.jcartadministartionback.dto.in.CustomerSearchInDTO;
+import com.bw.jcartadministartionback.dto.out.CustomerListOutDTO;
+import com.bw.jcartadministartionback.dto.out.CustomerShowOutDTO;
+import com.bw.jcartadministartionback.dto.out.PageOutDTO;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
