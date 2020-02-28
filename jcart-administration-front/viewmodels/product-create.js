@@ -22,6 +22,12 @@ var app = new Vue({
         mainFileList: [],
         otherFileList: []
     },
+    mounted(){
+        console.log('view mounted');
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    },
     methods: {
         handleCreateClick() {
             console.log('create click');
