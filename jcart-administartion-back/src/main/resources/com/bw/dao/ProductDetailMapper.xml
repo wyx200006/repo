@@ -26,6 +26,7 @@
     delete from jcart_product_detail
     where product_id = #{productId,jdbcType=INTEGER}
   </delete>
+  <delete id="batchDelete"></delete>
   <insert id="insert" parameterType="com.bw.pojo.ProductDetail">
     insert into jcart_product_detail (product_id, other_pic_urls, description
       )
