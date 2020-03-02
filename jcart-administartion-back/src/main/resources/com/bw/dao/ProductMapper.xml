@@ -24,7 +24,7 @@
     from jcart_product
     where product_id = #{productId,jdbcType=INTEGER}
   </select>
-  <select id="search" resultType="com.bw.jcartadministartionback.dto.out.ProductListOutDTO">
+  <select id="search" resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List"/>
     from jcart_product
