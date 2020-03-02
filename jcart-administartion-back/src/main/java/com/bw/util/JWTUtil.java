@@ -2,10 +2,8 @@ package com.bw.util;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.auth0.jwt.interfaces.DecodedJWT;
-import com.auth0.jwt.interfaces.JWTVerifier;
-import com.bw.jcartadministartionback.dto.out.AdministratorLoginOutDTO;
-import com.bw.jcartadministartionback.po.Administrator;
+import com.bw.dto.out.AdministratorLoginOutDTO;
+import com.bw.pojo.Administrator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,6 +1,6 @@
 package com.bw.dao;
 
-import com.bw.jcartadministartionback.dto.out.ProductListOutDTO;
+import com.bw.dto.out.ProductListOutDTO;
 import com.bw.pojo.Product;
 import com.github.pagehelper.Page;
 import org.springframework.stereotype.Repository;
