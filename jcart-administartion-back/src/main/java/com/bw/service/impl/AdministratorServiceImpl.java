@@ -24,4 +24,9 @@ public class AdministratorServiceImpl implements AdministratorService {
         Integer administratorId = administrator.getAdministratorId();
         return administratorId;
     }
+
+    @Override
+    public Administrator getById(Integer administratorId) {
+        return administratorMapper.selectByPrimaryKey(administratorId);
+    }
 }
