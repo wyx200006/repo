@@ -1,7 +1,9 @@
 package com.bw.dao;
 
 import com.bw.pojo.OrderDetail;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface OrderDetailMapper {
     int deleteByPrimaryKey(Long orderId);
 

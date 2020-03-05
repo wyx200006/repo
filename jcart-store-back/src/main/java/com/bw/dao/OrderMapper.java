@@ -1,6 +1,7 @@
 package com.bw.dao;
 
 import com.bw.pojo.Order;
+import com.github.pagehelper.Page;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -16,4 +17,6 @@ public interface OrderMapper {
     int updateByPrimaryKeySelective(Order record);
 
     int updateByPrimaryKey(Order record);
+
+    Page<Order> selectByCustomerId(Integer customerId);
 }

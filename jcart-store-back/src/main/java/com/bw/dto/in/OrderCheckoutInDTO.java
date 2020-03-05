@@ -10,6 +10,25 @@ public class OrderCheckoutInDTO {
     private String invoiceAddress;
     private Double invoicePrice;
     private String comment;
+    private  int ShipAddressId;
+    private Integer InvoiceAddressId;
+
+    public Integer getInvoiceAddressId() {
+        return InvoiceAddressId;
+    }
+
+    public void setInvoiceAddressId(Integer invoiceAddressId) {
+        InvoiceAddressId = invoiceAddressId;
+    }
+
+    public int getShipAddressId() {
+        return ShipAddressId;
+    }
+
+    public void setShipAddressId(int shipAddressId) {
+        ShipAddressId = shipAddressId;
+    }
+
     private List<OrderProductInDTO> orderProducts;
 
     public Short getShipMethod() {
