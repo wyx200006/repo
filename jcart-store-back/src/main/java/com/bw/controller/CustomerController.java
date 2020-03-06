@@ -22,6 +22,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/customer")
+@CrossOrigin
 public class CustomerController {
 
     @Autowired
@@ -121,6 +122,7 @@ public class CustomerController {
         message.setText(hex);
         mailSender.send(message);
         emailPwdResetCodeMap.put("PwdResetCode"+email, hex);
+
     }
 
     @PostMapping("/resetPwd")

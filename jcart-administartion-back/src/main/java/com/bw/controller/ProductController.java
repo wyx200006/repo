@@ -28,7 +28,7 @@ public class ProductController {
         Page<ProductListOutDTO> page = productService.search(pageNum);
 
         PageOutDTO<ProductListOutDTO> pageOutDTO = new PageOutDTO<>();
-        pageOutDTO.setTotal((int)page.getTotal());
+        pageOutDTO.setTotal((Long) page.getTotal());
         pageOutDTO.setPageSize(page.getPageSize());
         pageOutDTO.setPageNum(page.getPageNum());
         pageOutDTO.setList(page);

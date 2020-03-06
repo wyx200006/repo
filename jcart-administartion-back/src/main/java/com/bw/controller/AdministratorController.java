@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/administrator")
+@CrossOrigin
 public class AdministratorController {
 
     @Autowired
