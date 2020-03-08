@@ -32,6 +32,12 @@
       <include refid="Base_Column_List" />
       from jcart_administrator
     </select>
+    <select id="selectByEmail" resultMap="BaseResultMap">
+      select
+      <include refid="Base_Column_List"></include>
+      from jcart_administrator
+      where email = #{email}
+    </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from jcart_administrator
     where administrator_id = #{administratorId,jdbcType=INTEGER}
